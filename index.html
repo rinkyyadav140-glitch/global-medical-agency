@@ -1,1 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Medical Agency - Trusted Healthcare Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Global Medical Agency</h1>
+            <p>Your Trusted Partner in Healthcare and Pharmaceuticals</p>
+            <button id="dark-mode-toggle" class="dark-mode-btn"><i class="fas fa-moon"></i></button>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <a href="#home"><i class="fas fa-home"></i> Home</a>
+            <a href="#products"><i class="fas fa-pills"></i> Products</a>
+            <a href="#about"><i class="fas fa-info-circle"></i> About Us</a>
+            <a href="#testimonials"><i class="fas fa-star"></i> Testimonials</a>
+            <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+        </div>
+    </nav>
+    <main>
+        <section id="home" class="hero parallax">
+            <div class="container">
+                <h2>Welcome to Global Medical Agency</h2>
+                <p>We provide high-quality medicines, healthcare products, and consumables to doctors, chemists, hospitals, and consumers worldwide. Committed to affordability, safety, and innovation.</p>
+                <a href="#products" class="cta-button">Explore Our Products</a>
+            </div>
+        </section>
+        
+        <section id="products">
+            <div class="container">
+                <h2>Our Products – Category-wise</h2>
+                <div class="search-container">
+                    <input type="text" id="product-search" placeholder="Search products by category...">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="products-grid masonry">
+                    <!-- Generic Medicines -->
+                    <div class="product-category" data-category="generic">
+                        <img src="https://via.placeholder.com/300x200?text=Generic+Medicines" alt="Generic Medicines" class="product-img">
+                        <h3>Generic Medicines</h3>
+                        <p>High-quality generic medicines for doctors and chemists. Affordable, effective, and widely trusted. Examples: Paracetamol, Amoxicillin, Ibuprofen, Metformin, etc.</p>
+                        <button class="toggle-btn">Show More</button>
+                        <div class="details">
+                            <p>These are bioequivalent to branded drugs but cost less. Available in various forms like tablets and syrups. We ensure compliance with international quality standards.</p>
+                        </div>
+                    </div>
 
+                    <!-- Ethical / Prescription Medicines -->
+                    <div class="product-category" data-category="ethical">
+                        <img src="https://via.placeholder.com/300x200?text=Ethical+Medicines" alt="Ethical Medicines" class="product-img">
+                        <h3>Ethical / Prescription Medicines</h3>
+                        <p>Branded and certified medicines available only with a doctor's prescription. Used for chronic illnesses and specialized treatment. Examples: Heart medicines, Diabetes medicines, Antibiotics, etc.</p>
+                        <button class="toggle-btn">Show More</button>
+                        <div class="details">
+                            <p>These require a prescription to ensure safe usage. We partner with leading manufacturers for quality assurance and offer a wide range for cardiovascular, endocrine, and infectious diseases.</p>
+                        </div>
+                    </div>
+
+                    <!-- OTC (Over-The-Counter) Medicines -->
+                    <div class="product-category" data-category="otc">
+                        <img src="https://via.placeholder.com/300x200?text=OTC+Products" alt="OTC Products" class="product-img">
+                        <h3>OTC (Over-The-Counter) Products</h3>
+                        <p>Medicines and healthcare products available without prescription for minor illnesses and daily health care. Examples: Painkillers, Cold & Cough remedies, Vitamins, Antacids, etc.</p>
+                        <button class="toggle-btn">Show More</button>
+                        <div class="details">
+                            <p>Convenient for self-treatment of common ailments. Always consult a doctor if symptoms persist. Our OTC range includes multivitamins and digestive aids for everyday wellness.</p>
+                        </div>
+                    </div>
+
+                    <!-- Baby Care Products -->
+                    <div class="product-category" data-category="baby">
+                        <img src="https://via.placeholder.com/300x200?text=Baby+Care+Products" alt="Baby Care Products" class="product-img">
+                        <h3>Baby Care Products</h3>
+                        <p>Safe and trusted medicines and products for infants and toddlers. Examples: Baby vitamins, Baby paracetamol syrup, Diaper rash cream, Infant formula, etc.</p>
+                        <button class="toggle-btn">Show More</button>
+                        <div class="details">
+                            <p>Formulated with gentle ingredients. Suitable for newborns and up to toddlers. We prioritize hypoallergenic and pediatrician-approved products for your little ones' health.</p>
+                        </div>
+                    </div>
+
+                    <!-- Ayurvedic / Herbal Products -->
+                    <div class="product-category" data-category="ayurvedic">
+                        <img src="https://via.placeholder.com/300x200?text=Ayurvedic+Products" alt="Ayurvedic Products" class="product-img">
+                        <h3>Ayurvedic / Herbal Products</h3>
+                        <p>Natural and herbal remedies for health and wellness. Examples: Ashwagandha capsules, Triphala tablets, Herbal oils, Chyawanprash, etc.</p>
+                        <button class="toggle-btn">Show More</button>
+                        <div class="details">
+                            <p>Based on traditional Ayurvedic principles. Promotes holistic health without side effects. Sourced from organic herbs for immunity, digestion, and stress relief.</p>
+                        </div>
+                    </div>
+
+                    <!-- Surgical / Consumables -->
+                    <div class="product-category" data-category="surgical">
+                        <img src="https://via.placeholder.com/300x200?text=Surgical+Products" alt="Surgical Products" class="product-img">
+                        <h3>Surgical / Consumables</h3>
+                        <p>High-quality surgical and medical consumables for hospitals, clinics, and chemists. Examples: Bandages, Gloves, Syringes, Thermometers, etc.</p>
+                        <button class="toggle-btn">Show More</button>
+                        <div class="details">
+                            <p>Sterile and disposable items for medical use. Compliant with international standards like ISO and FDA. Essential for surgical procedures and daily medical needs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>Global Medical Agency is a leading provider of pharmaceuticals and healthcare products, established in 2010. With a commitment to quality, affordability, and customer satisfaction, we serve clients across the globe. Our team of experts ensures that every product meets the highest standards of safety and efficacy.</p>
+                <p>We specialize in generic and branded medicines, OTC products, baby care, Ayurvedic remedies, and surgical consumables. Partner with us for reliable healthcare solutions.</p>
+                <div class="stats">
+                    <div class="stat">
+                        <h3 class="counter" data-target="13">0</h3>
+                        <p>Years in Business</p>
+                    </div>
+                    <div class="stat">
+                        <h3 class="counter" data-target="50000">0</h3>
+                        <p>Products Served</p>
+                    </div>
+                    <div class="stat">
+                        <h3 class="counter" data-target="100">0</h3>
+                        <p>Countries Reached</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="testimonials">
+            <div class="container">
+                <h2>What Our Clients Say</h2>
+                <div class="testimonial-carousel">
+                    <div class="testimonial active">
+                        <p>"Global Medical Agency has been our go-to for quality generics. Reliable and affordable!"</p>
+                        <cite>- Dr. Sharma, Chemist</cite>
+                    </div>
+                    <div class="testimonial">
+                        <p>"Their Ayurvedic products are top-notch. Helped my family immensely."</p>
+                        <cite>- Priya Patel, Customer</cite>
+                    </div>
+                    <div class="testimonial">
+                        <p>"Excellent surgical consumables. Always on time and sterile."</p>
+                        <cite>- City Hospital, Partner</cite>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>Have questions or need assistance? Reach out to us!</p>
+                <form id="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+                <div id="form-response"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Global Medical Agency. All rights reserved. | <a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Service</a></p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+          </html>
