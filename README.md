@@ -39,7 +39,7 @@ This is a professional, responsive website for Global Medical Agency, a provider
 - Google Fonts (Roboto)
 
 ## Contact
-- Phone/WhatsApp: 9250925547
+- Phone/WhatsApp: +919250925547
 - Email: globalmedicalagency11@gmail.com
 
 ## License
