@@ -15,3 +15,34 @@ This is a professional, responsive website for Global Medical Agency, a provider
 ## Installation/Setup
 1. Download or clone the repository.
 2. Ensure the folder structure is as follows:
+3. Open `index.html` in any modern web browser to view the site.
+4. For development, use a local server (e.g., via VS Code Live Server extension) to enable features like parallax scrolling.
+
+## Usage
+- **Navigation**: Use the sticky nav bar to jump to sections.
+- **Products**: Use the search bar to find categories. Click "Show More" for details.
+- **Contact**: Click the WhatsApp or phone links to contact directly.
+- **Dark Mode**: Click the moon icon in the header to toggle themes.
+
+## File Structure
+- `index.html`: Main HTML file with all sections.
+- `style.css`: CSS for styling, including responsive and dark mode.
+- `script.js`: JavaScript for interactivity (search, toggles, carousel, form).
+- `images/`: Folder for product images (replace placeholders with real ones).
+- `README.md`: This file.
+
+## Technologies Used
+- HTML5
+- CSS3 (with Flexbox, Grid, Animations)
+- JavaScript (ES6)
+- Font Awesome (for icons)
+- Google Fonts (Roboto)
+
+## Contact
+- Phone/WhatsApp: 9250925547
+- Email: globalmedicalagency11@gmail.com
+
+## License
+This project is for personal/commercial use. Feel free to modify, but credit the original design.
+
+If you need further customizations, let me know!
